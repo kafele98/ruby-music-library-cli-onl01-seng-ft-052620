@@ -34,7 +34,15 @@ class Genre
   end 
   
   def artists 
-    @artist.songs
+    @new_array = []
+      if @new_array.include?(song.artist)
+        nil 
+      else 
+        @new_array << song.artist 
+      end 
+    end 
+    @new_array 
+  end 
   end 
   
   
