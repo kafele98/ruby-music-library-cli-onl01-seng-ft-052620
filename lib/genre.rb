@@ -33,6 +33,9 @@ class Genre
     @songs 
   end 
   
+  def artists 
+    @artists.map
+  end 
   
   
 end 
