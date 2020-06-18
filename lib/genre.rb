@@ -2,8 +2,8 @@
 
 class Genre 
   
-  attr_accessor :name, :m 
-  
+  attr_accessor :name, :musiclibrarycontroller, :musicimporter
+  extend Concerns::Findable 
   @@all = []
   
   def initialize(name)
