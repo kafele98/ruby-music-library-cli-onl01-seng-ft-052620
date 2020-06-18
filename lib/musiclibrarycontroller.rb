@@ -13,6 +13,7 @@ class MusicLibraryController
     if input != exit 
       
     puts "Welcome to your music library!"
+  
   end 
   
 end 
