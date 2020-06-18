@@ -34,7 +34,7 @@ class Genre
   end 
   
   def artists 
-    @artists.map
+    @artist.map
   end 
   
   
