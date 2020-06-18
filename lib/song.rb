@@ -34,6 +34,12 @@ class Song
     song.save 
     song 
   end 
+  
+  def artist 
+    @artist 
+  end 
+  
+  
 end 
 
 
